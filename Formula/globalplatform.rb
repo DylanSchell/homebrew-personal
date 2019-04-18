@@ -8,6 +8,7 @@ class Globalplatform < Formula
 
   # Disabled, apparently HEAD uses cmake, and thus needs an entirely new formula, I guess. - ELLIOTTCABLE
   # head 'svn://svn.code.sf.net/p/globalplatform/code/trunk/globalplatform'
+  depends_on "openssl" => :build
 
   def install
     ENV.append 'PCSCLITE_CFLAGS', "-I#{MacOS.sdk_path}/System/Library/Frameworks/PCSC.framework/Versions/A/Headers/"
