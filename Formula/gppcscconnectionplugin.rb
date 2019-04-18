@@ -7,6 +7,7 @@ class Gppcscconnectionplugin < Formula
   sha256 "4d090170a02c3f4358e80b00c2d25619e31b8c9115b206a85ab9949f60667b34"
 
   depends_on 'globalplatform'
+  depends_on "openssl" => :build
 
   # ./configure doesn't recognize GlobalPlatform without this
   depends_on 'pkg-config' => :build
