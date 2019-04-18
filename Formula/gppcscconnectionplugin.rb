@@ -1,9 +1,10 @@
 require "formula"
 
 class Gppcscconnectionplugin < Formula
+  desc "Global platform PCSC connection plugin"
   homepage "http://sourceforge.net/p/globalplatform/wiki/Home/"
   url "https://downloads.sourceforge.net/project/globalplatform/GlobalPlatform%20Library/GlobalPlatform%20Library%206.0.0/gppcscconnectionplugin-1.1.0.tar.gz"
-  sha1 "38eb3d739f1b75ba954f09a928a6e9db0178ea53"
+  sha256 "4d090170a02c3f4358e80b00c2d25619e31b8c9115b206a85ab9949f60667b34"
 
   depends_on 'globalplatform'
 
